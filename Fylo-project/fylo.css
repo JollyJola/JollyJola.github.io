@@ -1,0 +1,176 @@
+body{
+    background-color: rgba(28,34,48,255);
+    color: #f9fcfb;
+}
+
+
+ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+li{
+    display: inline-block;
+    margin: 0 10px;
+    margin-top: 30px;
+    margin-right: 60px;
+}
+
+#nav a{
+    color: #f9fcfb;
+    text-decoration: none;
+}
+
+#nav a:hover{
+    text-decoration: underline;
+}
+
+#image1{
+    width: 50px;
+    text-align: center;
+    margin: 50px 300px 0 250px;
+}
+
+#para1{
+    font-size: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin: 15px 250px 15px 250px;
+}
+
+.para{
+    text-align: center;
+    font-size: 18px;
+    margin: 15px 350px 15px 350px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.container1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#btn{
+    background-color: #4ec3d4;
+    color: #f9fcfb;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.backc{
+    background-color: rgba(24,30,42,255);
+}
+
+#sct{
+    background-image: url(bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(24,30,42,255);
+}
+
+
+.left{
+    text-align: center;
+    margin: 60px;
+    margin-left: 250px;
+}
+
+.right{
+   text-align: center;
+   margin: 60px;
+   margin-right: 250px;
+}
+
+#stpro{
+    width: 50%;
+    float: left;
+    margin: 40px;
+}
+
+.text{
+    float: right;
+    margin: 90px 50px 90px 0;
+}
+
+.para2{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.parag{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 15px;
+}
+
+.container3 a{
+    color: #4ec3d4;
+}
+
+#arrow{
+    border-bottom: 1px solid #4ec3d4;
+    position: absolute;
+}
+
+#arrow a{
+    text-decoration: none;
+}
+
+.container4{
+    background-color: rgba(24,30,42,255);
+}
+
+#profile1{
+    float: left;
+    border: 1px solid rgba(24,30,42,255);
+    background-color: rgba(28,34,48,255);
+    width: 30%;
+    height: 160px;
+    margin: 15px;
+    padding: 5px;
+    position: relative;
+    /* margin-top: -40px; */
+}
+
+#profile2{
+    float: left;
+    border: 1px solid rgba(24,30,42,255);
+    background-color: rgba(28,34,48,255);
+    width: 30%;
+    height: 160px;
+    margin: 15px;
+    padding: 5px;
+    /* margin-top: -40px; */
+}
+
+#profile3{
+    float: right;
+    border: 1px solid rgba(24,30,42,255);
+    background-color: rgba(28,34,48,255);
+    width: 30%;
+    height: 160px;
+    margin: 15px;
+    padding: 5px;
+    /* margin-top: -40px; */
+}
+
+.pimage{
+    float: left;
+    position: absolute;
+    width: 15px;
+}
